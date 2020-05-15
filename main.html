@@ -3,13 +3,21 @@
 <head>
   <meta charset="utf-8">
   <title>京大硬式庭球部</title>
+  <script src="./jquery/jquery-3.5.1.slim.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+  <script src="./plugins//jquery-fadethis-master/src/jquery.fadethis.js"></script>
 </head>
 <body>
-  <p>LPページ</p>
-  <script src="./jquery/jquery-3.5.1.slim.min.js"></script>
+  <div class="container">
+    <p>LPページ</p>
+    <div class="slide-left">slide left</div>
+  </div>
+
   <script>
-    $(function() {
-      $('p').css('color', 'red')
+    $(document).ready(function() {
+      $(window).fadeThis({
+        speed: 1000,
+      })
     })
   </script>
 </body>
