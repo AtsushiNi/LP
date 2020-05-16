@@ -62,15 +62,22 @@ main {
   margin: 0;
 }
 
-.block1 {
+.block {
   display: flex;
   margin: 0 0 60px;
-  padding-top: 60px;
+  padding: 60px 7.5% 0px 7.5%;
  }
 
-.img1 {
+.image {
   width: 45%;
-  margin-left: 7.5%;
+ }
+
+.text {
+  color: white;
+  background-color: #373737;
+}
+
+.img1 {
   margin-bottom: 80px;
   z-index: 20;
 }
@@ -78,9 +85,8 @@ main {
 .text1 {
   margin-top: 80px;
   background-color: #373737;
-  margin: 80px 7.5% 0 -7.5%;
+  margin: 80px 0 0 -7.5%;
   padding: 80px 7.5% 80px 15%;
-  color: white;
 }
 
 .title1 {
@@ -96,17 +102,9 @@ main {
   padding-top: 20px;
 }
 
-.block2 {
-  display: flex;
-}
-
 .text2 {
-  width: 50%;
-  margin-left: 7.5%;
   margin-bottom: 80px;
-  padding: 80 190 80 80;
-  background-color: #373737;
-  color: white;
+  padding: 80px 7.5% 80px 15%;
 }
 
 .title2 {
@@ -119,8 +117,40 @@ main {
 }
 
 .img2 {
-  width: 45%;
-  margin-top: 80px;
-  margin: 80px 7.5% 0 -7.5%;
+  margin: 80px 0 0 -7.5%;
   z-index: 20;
+}
+
+.block-enjin {
+  display: block;
+}
+
+.img-enjin {
+  display: block;
+  width: 90%;
+  margin: 0 auto 0 auto;
+  position: relative;
+  z-index: 20;
+}
+
+.text-enjin {
+  background-color: #373737;
+  width: 60%;
+  margin: -60px auto 0 auto;
+  padding: 60px 15% 80px 5%;
+  position: relative;
+  z-index: 10;
+}
+
+.title-enjin {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.subtitle-enjin {
+  font-weight: bolder;
+}
+
+.text-enjin p {
+  padding-top: 20px;
 }
